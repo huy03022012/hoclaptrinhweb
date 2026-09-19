@@ -14,3 +14,23 @@ img {
     margin-right: auto;
     width: auto;
 }
+@media (min-width: 319px) and (max-width: 480px) {
+    body {
+        background: yellow;
+    }
+}
+@media (min-width: 481px) and (max-width: 1200px) {
+    body {
+        background: chocolate;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+    body {
+        background: green;
+    }
+}
+@media (min-width: 1601px) {
+    body {
+        background: purple;
+    }
+}
