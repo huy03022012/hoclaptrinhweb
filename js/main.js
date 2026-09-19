@@ -1,0 +1,12 @@
+let thờigian = new Date();
+console.log(thờigian);
+let ngày = thờigian.getDate();
+let tháng = thờigian.getMonth() + 1;
+let năm = thờigian.getFullYear();
+let giờ = thờigian.getHours();
+let phút = thờigian.getMinutes();
+console.log(`Vào lúc ${giờ}:${phút} ngày ${ngày} tháng ${tháng} năm ${năm}`);
+let options = { day: "2-digit", month: "2-digit", year: "numeric" };
+console.log(thờigian.toLocaleDateString("vi-VN", options));
+let dinhdanggio = {hours: '2-digit', minutes: '2-digti', senconds: '2-digit'};
+console.log (thờigian.toLocaleTimeString('vi-VN', dinhdanggio));
